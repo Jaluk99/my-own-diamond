@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="pl.jlukas.myowndiamond.IntroductionActivity">
+
+    <LinearLayout
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/diamond" />
+
+        <TextView
+            android:id="@+id/oneTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome!"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/oneTextView2"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Thank you for purchasing my application, I invite you to look at my other works, I hope you will like it."
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/left_arrow"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/circle1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginEnd="3dp"
+                app:srcCompat="@drawable/circle_full" />
+
+            <ImageView
+                android:id="@+id/circle2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginStart="3dp"
+                app:srcCompat="@drawable/circle" />
+
+            <ImageView
+                android:id="@+id/circle3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginStart="3dp"
+                app:srcCompat="@drawable/circle" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/right_arrow" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/two"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/twoimageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/diamond" />
+
+        <TextView
+            android:id="@+id/twoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="So what's going on?"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/twoTextView2"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="In short, the My Own Diamond application is about expanding your diamond by viewing ads, micropayments, or making friendships with friends."
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/twoback"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/left_arrow"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/twocircle1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginEnd="3dp"
+                app:srcCompat="@drawable/circle" />
+
+            <ImageView
+                android:id="@+id/twocircle2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginStart="3dp"
+                app:srcCompat="@drawable/circle_full" />
+
+            <ImageView
+                android:id="@+id/twocircle3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginStart="3dp"
+                app:srcCompat="@drawable/circle" />
+
+            <Button
+                android:id="@+id/twonext"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/right_arrow" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/three"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/threeimageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/diamond" />
+
+        <TextView
+            android:id="@+id/threeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Let's get started!"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/threeTextView2"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Fill in the fields"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/nameDiamond"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Name of Diamond"
+            android:inputType="textPersonName"
+            android:lines="1"
+            android:maxLines="1"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="10dp"
+                app:srcCompat="@drawable/black_diamond" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="10dp"
+                app:srcCompat="@drawable/red_diamond" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/green_diamond" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/blackCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="28dp" />
+
+            <CheckBox
+                android:id="@+id/redCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="28dp" />
+
+            <CheckBox
+                android:id="@+id/greenCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorAccent"
+            android:text="okay, let's go!" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/threeback"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/left_arrow"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/threecircle1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginEnd="3dp"
+                app:srcCompat="@drawable/circle" />
+
+            <ImageView
+                android:id="@+id/threecircle2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginStart="3dp"
+                app:srcCompat="@drawable/circle" />
+
+            <ImageView
+                android:id="@+id/threecircle3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginStart="3dp"
+                app:srcCompat="@drawable/circle_full" />
+
+            <Button
+                android:id="@+id/threenext"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/right_arrow"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
